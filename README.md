@@ -13,6 +13,9 @@ This project automates the testing of a mobile application using Appium and Webd
 - **Allure Reporter** (for generating test execution reports)
 - **Data-Driven Testing** (for executing test scenarios with multiple data sets)
 
+## Video evidence
+https://drive.google.com/drive/folders/1NZBSJAJ_ifKz6Anjg1wLGPs7hb5Qk-Fe?usp=sharing
+
 ## 🚀 Project Setup
 
 ### 🔹 1. Prerequisites
