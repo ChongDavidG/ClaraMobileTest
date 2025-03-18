@@ -1,0 +1,19 @@
+[
+    {
+      "username": "bob@example.com",
+      "password": "10203040",
+      "shippingDetails": {
+        "fullName": "John Doe",
+        "addressLine1": "1234 Elm Street",
+        "city": "New York",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "paymentDetails": {
+        "fullName": "John Doe",
+        "cardNumber": "4111111111111111",
+        "expirationDate": "12/25",
+        "securityCode": "123"
+      }
+    }
+  ]
