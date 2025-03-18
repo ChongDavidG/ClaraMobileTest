@@ -37,6 +37,20 @@ Copy
 appium
 If using a remote Appium server, configure the host, port, and path in the wdio.conf.ts file accordingly.
 
+🔹 4. Application Path Configuration
+The path to the mobile application (e.g., .apk for Android or .ipa for iOS) is specified in the wdio.conf.ts file. By default, it points to a local path on your machine.
+
+Each user must update the app capability in the wdio.conf.ts file to point to the correct path of the application on their system. For example:
+
+ts
+Copy
+capabilities: [{
+    platformName: 'Android',
+    'appium:app': '/path/to/your/app.apk', // Update this path
+    // Other capabilities...
+}]
+Note: If the application is hosted remotely (e.g., on a cloud storage service), you can provide a direct URL to the file instead of a local path.
+
 📱 Platform Configuration
 🔹 Android Setup
 Enable USB debugging on the device or use an emulator.
@@ -129,5 +143,3 @@ Make sure the XPath selector is correct or use driver.waitForExist() to ensure t
 
 📌 Notes
 This project is designed to be modular, scalable, and easy to maintain.
-
-Contributions and improvements are always welcome! 🚀
